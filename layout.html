@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Games 4 Devs</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand mx-auto" href="#">Games 4 DEVS</a>
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    <a class="btn btn-danger" href="#">Sign Out</a>
+  </nav>
+
+  <!-- Sidebar -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-2">
+        <ul class="list-group">
+          <li class="list-group-item"><a href="#">Dashboard</a></li>
+          <li class="list-group-item"><a href="#">Games</a></li>
+          <li class="list-group-item"><a href="#">User</a></li>
+          <li class="list-group-item"><a href="#">My Games</a></li>
+        </ul>
+      </div>
+
+      <!-- Conteúdo Principal -->
+      <div class="col-md-10">
+        <h2>Dashboard</h2>
+
+        <!-- Tabela de Jogos -->
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Price</th>
+              <th>Category</th>
+              <th>Developers</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Nome do Jogo 1</td>
+              <td>R$XX,XX</td>
+              <td>Ação</td>
+              <td>Desenvolvedor 1</td>
+              <td>
+                <button class="btn btn-primary">Editar</button>
+                <button class="btn btn-danger">Excluir</button>
+              </td>
+            </tr>
+            <!-- Adicione mais linhas conforme necessário -->
+          </tbody>
+        </table>
+
+        <!-- Tabela de Usuários -->
+        <h2>Users</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Country</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Nome do Usuário 1</td>
+              <td>email@example.com</td>
+              <td>Brasil</td>
+            </tr>
+            <!-- Adicione mais linhas conforme necessário -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
