@@ -6,6 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Minha Loja de Jogos</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .banner-img {
+            width: 100%;
+            height: auto;
+            max-height: 55vh;
+            /* Ajuste a altura máxima conforme necessário */
+            object-fit: cover;
+        }
+
+        .card {
+            height: 100%;
+        }
+
+        .card-img-top {
+            height: 50%;
+            object-fit: cover;
+        }
+    </style>
 </head>
 
 <body>
@@ -44,7 +62,12 @@
         </div>
     </nav>
 
-    <div class="container mt-5">
+    <!-- Banner -->
+    <div class="container-fluid p-0">
+        <img src="imgs/cover.png" class="img-fluid banner-img" alt="Banner">
+    </div>
+
+    <div class="container-fluid mt-3">
         <div class="row">
 
             <!-- Jogo 1 -->
